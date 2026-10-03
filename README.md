@@ -1,0 +1,3 @@
+Privacy: no farmer names, phone numbers, or GPS. Plots use codes like PLT-001.
+One data structure: a single dict in YieldMonitor, mapping record_id → HarvestRecord. Each record carries its own Plot object. That means plot details repeat across records, which is a deliberate trade-off to honor "only one data structure". Say so in your docs and it reads as engineering judgment, not a gap.
+Tuple bonus: the season is stored as (year, "Rainy"), which is immutable by nature.
