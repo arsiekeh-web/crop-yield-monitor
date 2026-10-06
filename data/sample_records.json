@@ -1,0 +1,32 @@
+[
+  {
+    "record_id": "REC-001",
+    "plot": {"plot_id": "PLT-001", "crop": "Cassava", "area_ha": 2.0},
+    "season": [2025, "Rainy"],
+    "quantity_kg": 14000
+  },
+  {
+    "record_id": "REC-002",
+    "plot": {"plot_id": "PLT-002", "crop": "Rice", "area_ha": 1.5},
+    "season": [2025, "Rainy"],
+    "quantity_kg": 3000
+  },
+  {
+    "record_id": "REC-003",
+    "plot": {"plot_id": "PLT-003", "crop": "Groundnut", "area_ha": 1.0},
+    "season": [2025, "Dry"],
+    "quantity_kg": 900
+  },
+  {
+    "record_id": "REC-004",
+    "plot": {"plot_id": "PLT-004", "crop": "Maize", "area_ha": 2.5},
+    "season": [2025, "Rainy"],
+    "quantity_kg": 3500
+  },
+  {
+    "record_id": "REC-005",
+    "plot": {"plot_id": "PLT-005", "crop": "Cassava", "area_ha": 1.2},
+    "season": [2026, "Rainy"],
+    "quantity_kg": 9000
+  }
+]
